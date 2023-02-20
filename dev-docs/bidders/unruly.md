@@ -26,4 +26,5 @@ sidebarType: 1
 | Name               | Scope          | Description                                                                                                                  | Example                                          | Type      |
 |--------------------|----------------|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|-----------|
 | `siteId`           | required       | The site ID from Unruly. This will be provided to you by your Unruly account manager.                                        | `123456`                                         | `integer` |
+| `siteid`           | deprecated       | The site ID from Unruly. This will be provided to you by your Unruly account manager.                                        | `123456`                                         | `integer` |
 | `featureOverrides` | optional       | This param is a generic object for configuring Unruly outstream demand. To run UNmissable, set ‘canRunUnmissable’ to true.   | `"featureOverrides": {"canRunUnmissable": true}` | `object`  |
